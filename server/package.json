@@ -1,0 +1,13 @@
+{
+  "name": "ws-remoting-samples-server",
+  "version": "1.0.0",
+  "description": "Sample server of the ws remoting package",
+  "main": "SimpleServer.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc --watch",
+    "server": "nodemon /w ./dist/SimpleServer.js"
+  },
+  "author": "Rodrigo Portela",
+  "license": "Apache-2.0"
+}
