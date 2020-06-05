@@ -20,6 +20,8 @@ export default class MessageItem extends React.Component {
   }
 
   beginEdit = () => this.setState({ editing: true });
+
+  
   endEdit = (event) => {
     DB.put(this.props.collection, {
       id: this.props.id,

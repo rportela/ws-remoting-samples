@@ -80,5 +80,10 @@ export default class DbQuery extends React.Component {
       WsDbActions.INSERTED,
       this.recordAdded
     );
+    DB.removeListener(
+      this.props.collection,
+      WsDbActions.DELETED,
+      this.recordDeleted
+    );
   }
 }
