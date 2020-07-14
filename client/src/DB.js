@@ -1,5 +1,5 @@
-import WsDb from "ws-remoting/dist/client/WsDb";
+import RemoteDbs from "ws-remoting/dist/client/RemoteDbs";
 
-const DB = new WsDb("ws://localhost:1337", "crm");
+const DB = new RemoteDbs("ws://localhost:1337");
 
 export default DB;
